@@ -13,6 +13,7 @@ func main() {
 	fmt.Println(return_string())
 	guessGame(24, 5)
 
+
 }
 
 // defining a function
@@ -42,3 +43,8 @@ func guessGame(secret int, limit int) bool {
 	fmt.Println("you failed")
 	return false
 }
+/*
+func learn_array() [2]int {
+	var arr [2]int
+	var arr2 [3]int 
+}*/
